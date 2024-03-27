@@ -1,24 +1,88 @@
-@media (max-width: 992px) {
-    }
-@media (min-width: 993px) and (max-width: 1200px) {
-   }
-@media (min-width: 1201px) {
-    }
 body {
-    background-color: #dc6620;
-    font-size: 14px;
-}
-header {
-    background-color: #dc6620;
+    background-color: #3f7bbe;
+    padding: 20px;
+  }
+  
+  .navbar-expand-lg {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f7f6f8;
+  }
+  .container-fluid {
+    max-width: 100%;
+    margin-top: 30px;
+    padding: 0px;
+    background-color: #3f7bbe;
+    color: #fff8e1;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-align: center;
-    font-size: 10px;
-    color: rgb(245, 230, 227);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.container {
-    background-color: #b7a6d0;
-    color: #FFF8E1;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-size: 25px;
-}
+    font-size: 15px;
+  }
+  
+  .form-group {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #6359a0;
+  }
+  .list-group {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #6359a0;
+  }
+  .h3 {
+    font-size: 120px;
+    background-color: #6359a0;
+    margin-bottom: 0px;
+  }
+  
+  .btn-dark {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px;
+    .h2footer{
+      font-size: 80px;
+    }
+    .siguenos{
+    display: flex;
+    justify-content: center;
+    }
+    .social-media-icons{
+    display: flex;
+    justify-content:center;
+    .listaRedes{
+    list-style-type: none;
+    }
+    .email{
+    width: 50px;
+    height: 50px; 
+    padding: 10px;
+    }
+    .ws{
+    width: 50px;
+    height: 50px; 
+    padding: 10px; 
+    }
+    .fb{
+    width: 50px;
+    height: 50px; 
+    padding: 10px;
+    }
+    .x{
+    width: 50px;
+    height: 50px; 
+    padding: 10px;
+    }
+    .inst{
+    width: 50px;
+    height: 50px; 
+    padding: 10px;
+    }
+    }  
+    }

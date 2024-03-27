@@ -1,25 +1,86 @@
-@media (max-width: 992px) {
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-}
-@media (min-width: 1201px) {
-}
 body {
-background-color: #dc6620;
-font-size: 14px;
+background-color: #3f7bbe;
+padding: 20px;
 }
-header {
-background-color: #dc6620;
-text-align: center;
-font-size: 10px;
-color: rgb(245, 230, 227);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.navbar-expand-lg{
+margin: 0px;
+font-size: 20px; 
+font-weight: bold;
+background-color: #f7f6f8;
+
 }
-.container {
-background-color: #b7a6d0;
-box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+.container-fluid {
+background-color: #3f7bbe;
 color: #FFF8E1;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
-font-size: 25px;
+font-size: 20px;
+
+#saldoYdeposito{
+margin: 30px;
+background-color: #6359A0 ;
+border-radius: 30px;
 }
+.saldo{
+margin: 150px 20px 10px 20px;
+padding: 10px 0px;
+background-color: #7f7fbd ;
+color: rgb(240, 240, 243);
+border-radius: 30px;
+}
+#montoADepositar{
+width: 350px;
+margin: 30px;
+background-color: #7f7fbd ;
+border-radius: 30px;
+}
+.form-group{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+}
+.footer {
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px;
+  .h2footer{
+    font-size: 80px;
+  }
+  .siguenos{
+  display: flex;
+  justify-content: center;
+  }
+  .social-media-icons{
+  display: flex;
+  justify-content:center;
+  .listaRedes{
+  list-style-type: none;
+  }
+  .email{
+  width: 50px;
+  height: 50px; 
+  padding: 10px;
+  }
+  .ws{
+  width: 50px;
+  height: 50px; 
+  padding: 10px; 
+  }
+  .fb{
+  width: 50px;
+  height: 50px; 
+  padding: 10px;
+  }
+  .x{
+  width: 50px;
+  height: 50px; 
+  padding: 10px;
+  }
+  .inst{
+  width: 50px;
+  height: 50px; 
+  padding: 10px;
+  }
+  }  
+  }
