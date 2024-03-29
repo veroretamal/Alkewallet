@@ -11,9 +11,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
+              <div class="titulo-md3">
+                <h2>Crear usuario</h2>
+              </div>
                 <form id="crearUsuarioForm">
-                    <h2 class="h2">Crear usuario</h2>
-                    <div class="form-group">
+                  
+                     <div class="form-group">
                         <label for="usuario">Nombres y Apellidos:</label>
                         <input type="text" class="form-control" id="usuario" placeholder="Ingresa nombres y apellidos">
                     </div>
@@ -25,8 +28,8 @@
                         <label for="clave">Clave cajero automático:</label>
                         <input type="password" class="form-control" id="clave" placeholder="Ingresa tu clave de 4 dígitos">
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="alertar()">Crear</button>
-                    <a href="index.html" class="btn btn-primary">Iniciar sesión</a>
+                    <button type="button" class="btn btn-dark" onclick="alertar()">Crear</button>
+                    <a href="index.html" class="btn btn-dark">Iniciar sesión</a>
                 </form>
                 
             </div>
@@ -76,19 +79,24 @@
     </div>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>ALKEWallet</h2>
-                </div>
-                <div class="col-sm-8">
-                    <h3 class="redes">Contáctanos</h3>
-                    <p>Estamos ubicados en Ruta V891 km 3. Colaco, Región de los Lagos</p>
-                    <p>Puedes llamarnos al teléfono 800 6000 787</p>
-                </div>
-            </div>
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-2">
+        <h2 class="h2footer">ALKEWallet</h2>
+      </div>
+      <div class="col-sm-10">
+          <h3 class="siguenos">Síguenos</h3>
+            <ul class="social-media-icons">
+            <li class="listaRedes"><a href="#"><img class="email" src="../assets/IMG//email.png" alt="email"></a></li>
+            <li class="listaRedes"><a href="#"><img class="ws" src="../assets/IMG/whatsapp.png" alt="whatsapp"></a></li>
+            <li class="listaRedes"><a href="#"><img class="fb" src="../assets/IMG/facebook.png" alt="facebook"></a></li>
+            <li class="listaRedes"><a href="#"><img class="x" src="../assets/IMG/x.png" alt="x"></a></li>
+            <li class="listaRedes"><a href="#"><img class="inst" src="../assets/IMG/instagram.png" alt="instagram"></a></li>
+          </ul>
         </div>
-    </footer>
+      </div>
+      </div>
+      </footer>
 
     <script src="/java/create.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

@@ -24,7 +24,7 @@
         <a class="nav-link" href="deposit.html">Realizar depósito</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sendmoney.html">Enviar dinero</a>
+          <a class="nav-link" href="sendmoney.html">Enviar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="transactions.html">Ultimos movimientos</a>
@@ -39,19 +39,57 @@
        <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-      <h2>Últimos Movimientos</h2>
-      <ul class="list-group">
-         <ul id="list-group-item" class="list-group">
-          <label for="list-group-item">Contactos:</label>
-        <li class="list-group-item">Compra Falabella.com - $176.000</li>
-        <li class="list-group-item">Depósito sueldo - $2.105.000</li>
-        <li class="list-group-item">Transferencia desde Banco Santander - $68.000</li>
-        <li class="list-group-item">Compra comercio SPA - $110.00</li>
-        <li class="list-group-item">Transferencia desde Banco Estado - $7.000</li>
-        <li class="list-group-item">Transferencia hacia Maria Cardenas - $300.000</li>
-       </ul>
-        <a href="../html/menu.html" class="btn btn-secondary">Volver al inicio</a>
-          </div>
+      <h2 class="h2">Últimos Movimientos</h2>
+      <table class="table table-light">
+        <thead>
+          <tr>
+            <th scope="col">Fecha</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Monto</th>
+            <th scope="col">Saldo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">02-03</th>
+            <td>Pago remuneraciones</td>
+            <td>$2.000.000</td>
+            <td>$2.000.000</td>
+          </tr>
+          <tr>
+            <th scope="row">05-03</th>
+            <td>Transferencia a CC Marta Sánchez</td>
+            <td>$400.000</td>
+            <td>$1.600.000</td>
+          </tr>
+          <tr>
+            <th scope="row">07-03</th>
+            <td>Transferencia desde Bco Estado</td>
+            <td>$500.000</td>
+            <td>$2.100.000</td>
+         </tr>
+         <tr>
+          <th scope="row">10-03</th>
+          <td>Compra supermercado Líder</td>
+          <td>$250.000</td>
+          <td>$1.850.000</td>
+       </tr>
+       <tr>
+        <th scope="row">10-03</th>
+        <td>Pago cuenta telefonía fibra óptica</td>
+        <td>$110.000</td>
+        <td>$1.740.000</td>
+     </tr>
+     <tr>
+      <th scope="row">10-03</th>
+      <td>Pago permiso de circulación Municipalidad de Tilcoco</td>
+      <td>$200.000</td>
+      <td>$1.540.000</td>
+   </tr>
+        </tbody>
+      </table>
+        <a href="../html/menu.html" class="btn btn-dark">Volver al inicio</a>
+                </div>
             <div class="col-md-9">
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -94,8 +132,6 @@
             </div>
           </div>
         </div>
-     
-
         <footer class="footer">
           <div class="container">
           <div class="row">
@@ -115,8 +151,7 @@
           </div>
           </div>
           </footer>
-      <script src="/java/transactions.js"></script> 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
